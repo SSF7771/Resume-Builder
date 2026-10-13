@@ -121,59 +121,6 @@ Notes:
 - `CLIENT_URL` is used for CORS configuration
 - `JWT_SECRET` should be a strong secret used for signing authentication tokens
 
-## Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/SSF7771/Resume-Builder.git
-cd Resume-Builder
-```
-
-### 2. Install Backend Dependencies
-
-```bash
-cd backend
-npm install
-```
-
-Start the backend:
-
-```bash
-npm start
-```
-
-For development mode with auto-reload:
-
-```bash
-npm run dev
-```
-
-### 3. Install Frontend Dependencies
-
-```bash
-cd ../frontend/resume-builder
-npm install
-```
-
-Start the frontend:
-
-```bash
-npm run dev
-```
-
-The frontend will typically run at:
-
-```text
-http://localhost:5173
-```
-
-The backend will typically run at:
-
-```text
-http://localhost:5000
-```
-
 ## API Endpoints
 
 The backend exposes REST endpoints under the `/api` base path.
@@ -245,23 +192,6 @@ The frontend is organized as follows:
 - Ensure the token is attached to authenticated requests
 - Check whether the user is logged in before accessing protected routes
 
-## License
-
-This project is currently licensed under the ISC license, as defined in the backend package configuration.
-
-## Contributing
-
-Contributions are welcome. If you would like to contribute:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request with a clear summary
-
 ## Project Status
 
 This project is a functional personal resume-building application with authentication, dashboard management, and resume editing capabilities.
-
-## Contact
-
-For questions or collaboration, please reach out through the repository owner or project maintainer.
